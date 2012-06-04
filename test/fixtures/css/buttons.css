@@ -36,3 +36,28 @@ a.button.star {
     color: #ae7e00; }
   a.button.star.disabled {
     opacity: 0.5; }
+
+/*
+Nothing much. It has no border but it has focus styles
+
+:focus - Focus state
+
+Styleguide 2.3.1
+*/
+.foo {
+  border-width: 0;
+}
+.foo:focus, .foo-variant:focus {
+  outline: 3px solid rgba(0,80,255, 0.4);
+}
+
+/*
+Like foo, but fullwidth.
+
+:focus - Focus state
+
+Styleguide 2.3.2
+*/
+.foo-variant {
+  width: 100%;
+}
