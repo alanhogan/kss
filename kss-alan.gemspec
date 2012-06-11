@@ -1,7 +1,7 @@
 require File.dirname(__FILE__) + '/lib/kss/version'
 
 Gem::Specification.new do |s|
-  s.name              = "kss"
+  s.name              = "kss-alan"
   s.version           = Kss::VERSION
   s.date              = Time.now.strftime('%Y-%m-%d')
   s.summary           = "A library for parsing KSS documented stylesheets and generating styleguides (originally by Kyle Neath)"
