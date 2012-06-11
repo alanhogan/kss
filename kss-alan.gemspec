@@ -4,10 +4,10 @@ Gem::Specification.new do |s|
   s.name              = "kss"
   s.version           = Kss::VERSION
   s.date              = Time.now.strftime('%Y-%m-%d')
-  s.summary           = "A library for parsing KSS documented stylesheets and generating styleguides"
+  s.summary           = "A library for parsing KSS documented stylesheets and generating styleguides (originally by Kyle Neath)"
   s.homepage          = "http://github.com/kneath/kss"
-  s.email             = "kneath@gmail.com"
-  s.authors           = [ "Kyle Neath" ]
+  s.email             = "gem@alanhogan.com"
+  s.authors           = [ "Alan Hogan" ]
   s.has_rdoc          = false
 
   s.files             = %w( README.md Rakefile LICENSE )
